@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["'Poppins'", "sans-serif"],
+        dmSans: ["'DM Sans'", "sans-serif"],
       },
       colors: {
         black100: "#07070C",
