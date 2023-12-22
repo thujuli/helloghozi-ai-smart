@@ -1,9 +1,8 @@
-import Button from "../atoms/Button";
 import illMdHero from "../../assets/img/illustration-md-hero.png";
 import illLgHero from "../../assets/img/illustration-lg-hero.png";
 import HomeHeroCard from "../molecules/HomeHeroCard";
 
-export default function HomePageHero() {
+export default function HomeHeroSection() {
   return (
     <section className="max-w-7xl mx-auto py-[100px] px-5 md:px-10 lg:px-[50px] overflow-hidden">
       <div className="bg-black100 flex rounded-[70px] py-[100px] px-5 gap-x-5 items-center lg:flex-col lg:px-0 lg:pb-0 lg:pt-[100px] gap-y-[50px]">

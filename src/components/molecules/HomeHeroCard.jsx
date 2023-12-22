@@ -3,9 +3,9 @@ import Button from "../atoms/Button";
 export default function HomeHeroCard({ children, title }) {
   return (
     <div className="flex flex-col gap-y-[30px] lg:px-[150px]">
-      <h5 className="font-medium text-[28px] text-center text-white md:text-[38px] md:text-start lg:text-center lg:text-[48px] ">
+      <h1 className="font-medium text-[28px] text-center text-white md:text-[38px] md:text-start lg:text-center lg:text-[48px] ">
         {title}
-      </h5>
+      </h1>
       <p className="text-sm text-black10 text-center md:text-[18px] md:text-start lg:text-center lg:font-medium">
         {children}
       </p>
