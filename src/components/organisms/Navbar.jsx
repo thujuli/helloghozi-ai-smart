@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import menu from "../../assets/img/menu.svg";
 import close from "../../assets/img/close.svg";
 import Button from "../atoms/Button";
 
 const menus = [
-  { name: "Home" },
-  { name: "Pricing" },
-  { name: "About" },
-  { name: "Contact" },
+  { name: "Home", link: "/" },
+  { name: "Pricing", link: "/pricing" },
+  { name: "About", link: "/about" },
+  { name: "Contact", link: "/contact" },
 ];
 
 export default function Navbar() {
@@ -40,7 +41,9 @@ export default function Navbar() {
         </h5>
         <ul className="hidden text-black50 items-center gap-x-5 md:flex md:text-sm lg:text-lg ">
           {menus.map((menu) => (
-            <li key={menu.name}> {menu.name} </li>
+            <li key={menu.name}>
+              <Link to={menu.link}>{menu.name}</Link>
+            </li>
           ))}
         </ul>
         <Button className="hidden px-[34px] py-[13px] md:block ">
@@ -62,7 +65,9 @@ export default function Navbar() {
         }`}
       >
         {menus.map((menu) => (
-          <li key={menu.name}>{menu.name}</li>
+          <li key={menu.name}>
+            <Link to={menu.link}>{menu.name}</Link>
+          </li>
         ))}
         <Button className="px-[34px] py-[13px] w-full">Get Started</Button>
       </ul>
