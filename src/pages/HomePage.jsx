@@ -1,3 +1,4 @@
+import BenefitSection from "../components/organisms/BenefitSection";
 import FeatureSection from "../components/organisms/FeatureSection";
 import HomeHeroSection from "../components/organisms/HomeHeroSection";
 import GlobalTemplate from "../components/templates/GlobalTemplate";
@@ -7,6 +8,7 @@ export default function HomePage() {
     <GlobalTemplate>
       <HomeHeroSection />
       <FeatureSection />
+      <BenefitSection />
     </GlobalTemplate>
   );
 }

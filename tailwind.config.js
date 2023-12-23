@@ -20,7 +20,7 @@ export default {
         blueSky100: "#46D3FF",
         orange100: "#FB5530",
         green100: "#30FB81",
-        violet100: "#30FB81",
+        violet100: "#A56DFF",
       },
     },
   },
