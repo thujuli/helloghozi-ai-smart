@@ -4,6 +4,7 @@ const variants = {
   default: "bg-primary100 text-white",
   outline: "text-primary100 border-[1.5px] border-primary100",
   logo: "bg-primary100 text-white",
+  white: "bg-white text-black100",
 };
 
 const Img = ({ imgSrc, imgAlt }) => {
