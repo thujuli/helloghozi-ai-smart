@@ -3,6 +3,7 @@ import FeatureSection from "../components/organisms/FeatureSection";
 import HomeHeroSection from "../components/organisms/HomeHeroSection";
 import NewsSection from "../components/organisms/NewsSection";
 import PricingSection from "../components/organisms/PricingSection";
+import TestimonialSection from "../components/organisms/TestimonialSection";
 import GlobalTemplate from "../components/templates/GlobalTemplate";
 
 export default function HomePage() {
@@ -13,6 +14,7 @@ export default function HomePage() {
       <BenefitSection />
       <PricingSection />
       <NewsSection />
+      <TestimonialSection />
     </GlobalTemplate>
   );
 }
