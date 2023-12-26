@@ -4,6 +4,7 @@ import arrowRightPrimary from "../../assets/img/arrow-right-primary.svg";
 const variants = {
   default: "bg-primary100 text-white",
   outline: "text-primary100 border-[1.5px] border-primary100",
+  outlinePrimary: "text-white border-[1.5px] border-white",
   logo: "bg-primary100 text-white",
   logoPrimary: "bg-primary20 text-primary100",
   white: "bg-white text-black100",

@@ -1,4 +1,5 @@
 import BenefitSection from "../components/organisms/BenefitSection";
+import FaqSection from "../components/organisms/FaqSection";
 import FeatureSection from "../components/organisms/FeatureSection";
 import HomeHeroSection from "../components/organisms/HomeHeroSection";
 import NewsSection from "../components/organisms/NewsSection";
@@ -15,6 +16,7 @@ export default function HomePage() {
       <PricingSection />
       <NewsSection />
       <TestimonialSection />
+      <FaqSection />
     </GlobalTemplate>
   );
 }
